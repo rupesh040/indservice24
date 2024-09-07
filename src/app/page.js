@@ -6,6 +6,7 @@ import Text from "./components/Text";
 import Scard from "./components/Scard";
 import Video from "./components/Video";
 import View from "./components/View";
+import Service from "./components/Service";
 
 export default function Home() {
   return (
@@ -20,6 +21,7 @@ export default function Home() {
    </div>
    <Video/>
    <View/>
+   <Service/>
   </>
   );
 }

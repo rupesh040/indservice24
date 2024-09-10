@@ -2,7 +2,7 @@ import React from 'react'
 
 const View = () => {
   return (
-    <div className="relative">
+    <div className="relative overflow-hidden pb-10">
     <div className='max-w-[1280px] mx-auto pt-16 z-[6] pl-5'>
       <h1 className='text-5xl font-bold text-[#141417] my-5  z-[6]'>What Makes Edu<span className='font-light'>Blink</span> Stand Out?</h1>
       <p className='text-2xl w-[60%] font-medium text-zinc-500  z-[6]'>EduBlink offers much more than any other Education & Online Course

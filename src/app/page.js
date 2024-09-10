@@ -9,6 +9,9 @@ import View from "./components/View";
 import Service from "./components/Service";
 import Brands from "./components/Brands";
 import Zoom from "./components/Zoom";
+import Build from "./components/Build";
+import Responsive from "./components/Responsive";
+import Repair from "./components/Repair";
 
 
 export default function Home() {
@@ -27,6 +30,9 @@ export default function Home() {
    <Service/>
    <Brands/>
    <Zoom/>
+   <Build/>
+   <Responsive/>
+   <Repair/>
   </>
   );
 }

@@ -58,3 +58,16 @@ backdrop-filter: blur(6.9px);
 -webkit-backdrop-filter: blur(6.9px);
 
 }
+
+
+.slide{
+    padding-block: 8px;
+    animation: scroll   4s linear infinite ;
+}
+
+@keyframes scroll {
+    to{
+        transform: translateX(-100%);
+    }
+
+}

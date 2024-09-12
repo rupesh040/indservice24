@@ -64,7 +64,7 @@ backdrop-filter: blur(6.9px);
     max-width: 1536px;
     margin-inline: auto;
     position: relative;
-    height: 700px;
+    height: 300px;
     overflow: hidden;
     /* mask-image: linear-gradient(
       to right,
@@ -78,17 +78,17 @@ backdrop-filter: blur(6.9px);
 
   @keyframes scrollLeft {
     to {
-      top: -90%;
+      left: -400px;
     }
   }
 
   .item {
-    width: 90%;
-    height: 600px;
+    width: 400px;
+    height: 300px;
     background-color: red;
     border-radius: 6px;
     position: absolute;
-    top: max(calc(90% * 8), 100%);
+    left: max(calc(400px * 8), 100%);
     animation-name: scrollLeft;
     animation-duration: 30s;
     animation-timing-function: linear;
@@ -227,4 +227,42 @@ transform: translateX(0%);
 
   .itemTxt8 {
     animation-delay: calc(80s / 8 * (8 - 8) * -1);
+  }
+
+
+
+  .wrapperR {
+    width: 100%;
+    max-width: 1536px;
+    margin-inline: auto;
+    position: relative;
+    height: 700px;
+    overflow: hidden;
+    /* mask-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 0),
+      rgba(0, 0, 0, 1) 10%,
+      rgba(0, 0, 0, 1) 80%,
+      rgba(0, 0, 0, 0)
+    ); */
+    margin-bottom: 50px;
+  }
+
+  @keyframes scrollLeftR {
+    to {
+      top: -90%;
+    }
+  }
+
+  .itemR {
+    width: 90%;
+    height: 600px;
+    background-color: red;
+    border-radius: 6px;
+    position: absolute;
+    top: max(calc(90% * 8), 100%);
+    animation-name: scrollLeftR;
+    animation-duration: 30s;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
   }

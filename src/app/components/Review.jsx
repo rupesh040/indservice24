@@ -12,15 +12,15 @@ you can design your website more precisely.
 </p>
     </div>
     <div className="w-full  relative   bg-[#EAEFF3]]">
- <div className="wrapper flex justify-center items-center" >
-  <div className="item item1"></div>
-  <div class="item item2"></div>
-  <div className="item item3"></div>
-  <div className="item item4"></div>
-  <div className="item item5"></div>
-  <div className="item item6"></div>
-  <div className="item item7"></div>
-  <div className="item item8"></div>
+ <div className="wrapperR flex justify-center items-center" >
+  <div className="itemR item1"></div>
+  <div class="itemR item2"></div>
+  <div className="itemR item3"></div>
+  <div className="itemR item4"></div>
+  <div className="itemR item5"></div>
+  <div className="itemR item6"></div>
+  <div className="itemR item7"></div>
+  <div className="itemR item8"></div>
 </div>
 
 </div>

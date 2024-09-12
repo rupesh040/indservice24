@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@splidejs/splide-extension-auto-scroll": "^0.5.3",
     "framer-motion": "^11.5.4",
     "next": "14.2.8",
     "react": "^18",

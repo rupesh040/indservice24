@@ -2,7 +2,7 @@ import React from 'react'
 
 const Responsive = () => {
   return (
-         <div className='p-5 max-w-[1280px] overflow-hidden mx-auto flex  justify-between relative items-center max-[1080px]:flex-col gap-10 my-40'>
+         <div className='p-5 max-w-[1280px] max-[1080px]:overflow-hidden mx-auto flex  justify-between relative items-center max-[1080px]:flex-col gap-10 my-40'>
         <div className=" w-[50%] max-[1080px]:w-full">
             <span className='px-5 font-semibold py-1 rounded-3xl border-[1px] border-zinc-400 max-[600px]:px-3'>Responsive</span>
             <h1 className='text-5xl font-semibold py-3 max-[600px]:text-4xl'>Responsive Layout for

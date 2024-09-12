@@ -2,7 +2,7 @@ import React from 'react'
 
 const Scard = () => {
   return (
-    <div className="w-96">
+    <div className="w-96 ">
     <div className='w-96 h-60 flex items-center justify-center rounded-3xl p-4 bg-[#FAE2DD] relative'>
         <img src="https://edublink.co/images/feature/feature-01.webp" alt="" srcset="" />
         <img src="https://edublink.co/images/feature/feature-02.webp" alt="" className='absolute right-5 w-[70px] animate-bounce ' />

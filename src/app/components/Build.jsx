@@ -2,7 +2,7 @@ import React from 'react'
 
 const Build = () => {
   return (
-    <div className='p-5 max-w-[1280px] mx-auto flex  justify-between relative items-center max-[1080px]:flex-col gap-10 mt-20 overflow-hidden'>
+    <div className='p-5 max-w-[1280px] mx-auto flex  justify-between relative items-center max-[1080px]:flex-col gap-10 mt-20 max-[1080px]:overflow-hidden'>
 
     <div className=" relative">
     <img src="https://edublink.co/images/elamentor-01.png" alt="" srcset="" />

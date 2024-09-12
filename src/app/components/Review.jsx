@@ -11,8 +11,8 @@ you can design your website more precisely.
 
 </p>
     </div>
-    <div className="w-full h-[800px] relative flex flex-col justify-center items-center bg-[#EAEFF3]]">
- <div className="wrapper rotate-90 " id="review">
+    <div className="w-full  relative   bg-[#EAEFF3]]">
+ <div className="wrapper flex justify-center items-center" >
   <div className="item item1"></div>
   <div class="item item2"></div>
   <div className="item item3"></div>
